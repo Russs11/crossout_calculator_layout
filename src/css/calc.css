@@ -54,6 +54,15 @@
   margin: 40px 0 40px 40px;
   border: 1px solid #334562;
   border-radius: 10px;
+  overflow: scroll;
+}
+
+.components::-webkit-scrollbar {
+  width: 5px;
+}
+
+.components::-webkit-scrollbar-thumb {
+  background-color: #334562;
 }
 
 .components-title {
@@ -74,6 +83,6 @@
   grid-template-columns: 1fr;
   width: 96px;
   height: 96px;
-  background-color: cadetblue;
   border: 1px solid #fff;
+  background: url("../images/component_1.png");
 }
