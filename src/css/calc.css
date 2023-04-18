@@ -205,8 +205,7 @@
 .left-side-main-production-requires {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 30px 3px 20px repeat(5, 40px) 3px;
-  gap: 10px;
+  grid-template-rows: 30px 3px 60px repeat(4, 40px) 50px 3px;
   width: 100%;
   justify-items: center;
   align-items: center;
