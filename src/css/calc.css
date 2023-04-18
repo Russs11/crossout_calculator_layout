@@ -179,7 +179,7 @@
   height: 96px;
 }
 
-.left-side-head-item-info {
+.item-info {
   display: grid;
   grid-template-rows: repeat(4, 30px);
   grid-template-columns: 1fr 1fr;
