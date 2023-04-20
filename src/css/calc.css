@@ -215,6 +215,19 @@
   grid-column: 1/3;
 }
 
+.token {
+  display: grid;
+  grid-template-columns: 32px 32px;
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+}
+
+.token-img {
+  background: url("../images/token-img.png");
+  width: 32px;
+  height: 100%;
+}
+
 .production-requirements {
   display: grid;
   grid-template-columns: 1fr;
